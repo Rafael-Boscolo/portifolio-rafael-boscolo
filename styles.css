@@ -1,0 +1,107 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    line-height: 160%;
+}
+
+/* HEADER */
+header {
+    background-color: #6f2dbd;
+}
+
+header div {
+    margin: auto;
+    width: 120px;
+    height: 100px;
+
+}
+
+.avatar {
+    background-image: linear-gradient(90deg, #E2D45C 0%, #00f5d4 50.52%, #2892d7 100%);
+    padding: 4px;
+}
+
+header div img {
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+header div a {
+    text-decoration: none;
+    margin-right: 13px;
+}
+
+#div-container-logo-networks{
+    width: 100px;
+    margin: auto;
+    margin-top: 36px;
+    display: flex;
+}
+
+#icon-git {
+    width: 45px;
+    border-radius: 10px;
+}
+
+#icon-linkedin {
+    width: 45px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+}
+
+/* MAIN */
+main {
+    max-width: 580px;
+
+    margin: 32px auto;
+}
+
+ul { 
+    list-style: none;
+}
+
+section {
+    background-image: linear-gradient(90deg, #E2D45C 0%, #00f5d4 50.52%, #2892d7 100%);
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+section div {
+    background-color: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+section p {
+    color: #A1A1AA;
+}
+
+section div img {
+    width: 70px;
+}
+
+section div ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 24px;
+}
+
+/* ANIMATION */

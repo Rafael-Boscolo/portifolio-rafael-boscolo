@@ -55,6 +55,8 @@ header div a {
 #icon-git {
     width: 45px;
     border-radius: 10px;
+    background-color: white;
+    border: 0.5px solid white;
 }
 
 #icon-linkedin {
@@ -100,8 +102,11 @@ section div img {
 section div ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
     padding-top: 24px;
 }
 
+.logo-git {
+    border-radius: 35px;
+}
 /* ANIMATION */

@@ -68,7 +68,7 @@ header div a {
 
 /* MAIN */
 main {
-    max-width: 580px;
+    max-width: 700px;
 
     margin: 32px auto;
 }
@@ -102,11 +102,38 @@ section div img {
 section div ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 30px;
     padding-top: 24px;
 }
 
-.logo-git {
-    border-radius: 35px;
+.project-dsmeta {
+    width: 180px;
+    border: 1px solid #202024;
 }
+
+.nlw-esports {
+    width: 190px;
+    border: 1px solid #202024;
+}
+
+.em-breve {
+    width: 180px;
+    border: 1px solid white;
+}
+
+/* FOOTER */
+footer div {
+    width: 100%;
+    background-color: #202024;
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 40px; 
+    padding-top: 20px;
+}
+
+.footer-a {
+    text-decoration: none;
+}
+
 /* ANIMATION */

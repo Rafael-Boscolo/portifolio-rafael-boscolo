@@ -68,13 +68,17 @@ header div a {
 
 /* MAIN */
 main {
-    max-width: 700px;
+    max-width: 1000px;
 
     margin: 32px auto;
 }
 
 ul { 
     list-style: none;
+}
+
+.container-sobre {
+    font-size: 20px;
 }
 
 section {
@@ -102,18 +106,41 @@ section div img {
 section div ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 50px;
     padding-top: 24px;
 }
 
+.p-html {
+    margin-left: 15px;
+}
+
+.p-css {
+    margin-left: 20px;
+}
+
+.p-php {
+    margin-left: 20px;
+}
+
+.p-git {
+    margin-left: 20px;
+}
+
+.p-react {
+    margin-left: 5px;
+}
+
 .project-dsmeta {
-    width: 180px;
+    width: 300px;
     border: 1px solid #202024;
+    border-radius: 10px;
+    border: 1px solid ;
 }
 
 .nlw-esports {
-    width: 190px;
+    width: 300px;
     border: 1px solid #202024;
+    border-radius: 10px;
 }
 
 .em-breve {
@@ -124,11 +151,11 @@ section div ul {
 /* FOOTER */
 footer div {
     width: 100%;
-    background-color: #202024;
+    background-color: #121214;
     display: block;
     text-align: center;
     margin-top: 60px;
-    padding-bottom: 40px; 
+    padding-bottom: 20px; 
     padding-top: 20px;
 }
 

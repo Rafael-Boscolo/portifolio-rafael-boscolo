@@ -106,7 +106,7 @@ section div img {
 section div ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 40px;
     padding-top: 24px;
 }
 
@@ -130,15 +130,10 @@ section div ul {
     margin-left: 5px;
 }
 
-.project-dsmeta {
-    width: 300px;
-    border: 1px solid #202024;
-    border-radius: 10px;
-}
-
-.nlw-esports {
-    width: 300px;
-    border: 1px solid #202024;
+.container-project {
+    min-width: 200px;
+    min-height: 200px;
+    border: none;
     border-radius: 10px;
 }
 
